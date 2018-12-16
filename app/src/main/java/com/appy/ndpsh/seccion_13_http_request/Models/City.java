@@ -1,7 +1,11 @@
-package com.appy.ndpsh.seccion_13_http_request;
+package com.appy.ndpsh.seccion_13_http_request.Models;
+
+import com.google.gson.annotations.Expose;
 
 public class City {
 
+    // Anotacion para excluir a la que este referida con anotacion en este caso la propiedad name
+    @Expose
     public int id;
     public String name;
 
