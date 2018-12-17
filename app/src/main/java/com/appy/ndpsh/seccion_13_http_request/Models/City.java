@@ -6,8 +6,8 @@ public class City {
 
     // Anotacion para excluir a la que este referida con anotacion en este caso la propiedad name
     @Expose
-    public int id;
-    public String name;
+    private int id;
+    private String name;
 
     public City() {
     }
